@@ -1,0 +1,454 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title> Sports Pinterest</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-links">
+          <li>
+            <a class="nav-brand" href="index.html"
+              ><h3><i class="fab fa-pinterest"></i> Pinterest</a
+                ></h3>
+          </li>
+          <li class="nav-item"><a class="nav-link btn-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link btn-link " href="https://www.pinterest.com/today/" target="_blank">Today</a></li>
+          <li class="nav-item" target="_blank"><a class="nav-link btn-link" href="https://www.pinterest.com/ideas/">Explore</a></li>
+        </ul>
+
+        <div>
+          <form class="nav-searchbar">
+            <input
+              type="text" class="nav-search"  placeholder="Search for Jazz Musicians" /> 
+          </form>
+        </div>
+
+        <ul class="nav-buttons">
+          <li>
+            <button type="button" id="modal-btn-1" class="btn-round nav-login">Login</button>
+          </li>
+          <li>
+            <button type="button" id="modal-btn-2" class="btn-round nav-signup">Sign Up</button>
+          </li>
+        </ul>
+      </nav>
+      <!------------------LOGIN MODAL------------------- -->
+
+      <section>
+        <div id="modal" class="modal">
+          <div class="modal-inner">
+            <div class="modal-content">
+              <div class="close"><a href="#" id="close">Close</a></div>
+              <div class="modal-heading"><i class="fab fa-pinterest fa-3x"></i><h2>Welcome to Pinterest</h2><p>Find new ideas to try</p></div>
+
+              <form action="" class="modal-form">
+                <label for="email"></label>
+                  <input type="email" id="email" class="sign-up modal-field" name="email" placeholder="Email" required>
+
+                <label for="password"></label>
+                  <input type="password" id="password" class="sign-up modal-field" name="user_password" placeholder="Password" required>
+
+                <button type="submit" class="submit">Continue</button>
+                <p>OR</p>
+                <button type="submit" class="submit submit-fb"><i class="fab fa-facebook"></i> Continue with facebook</button>
+                <button type="submit" class="submit submit-g"><i class="fab fa-google"></i> Continue with Google</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- ----------------SIGN UP MODAL------------------- -->
+
+      <section>
+        <div id="modal2" class="modal2">
+          <div class="modal-inner">
+            <div class="modal-content">
+              <div class="close"><a href="#" id="close2">Close</a></div>
+              <div class="modal-heading"><i class="fab fa-pinterest fa-3x"></i><h2>Welcome to Pinterest</h2><p>Find new ideas to try</p></div>
+
+              <form action="" class="modal-form">
+                <label for="email"></label>
+                  <input type="email" id="email" class="sign-up modal-field" name="email" placeholder="Email" required>
+
+                <label for="password"></label>
+                  <input type="password" id="password" class="sign-up modal-field" name="user_password" placeholder="Create a password" required>
+
+                <label for="age"></label>
+                  <input type="text" id="age" class="sign-up modal-field" name="user_age" placeholder="Age" required>
+
+                <button type="submit" class="submit">Continue</button>
+                <p>OR</p>
+                <button type="submit" class="submit submit-fb"><i class="fab fa-facebook"></i> Continue with facebook</button>
+                <button type="submit" class="submit submit-g"><i class="fab fa-google"></i> Continue with Google</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- -=-=-=-=-=-=-=-TITLE SECTION-=-=-=-=-=-=-=--=- -->
+      <section class="title">
+        <div class="title-heading">
+          <h1 class="heading">Sports and More Sports!</h1>
+        <img
+          src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/50_bball_xbkudq.jpg"
+          alt="basketball" class="title-art"
+        />
+        </div>
+        <div class="title-subheading">
+          <p>Collection by <span class="lead">Joshua Frilot</span>. Last updated 3 weeks ago.</p>
+        <p>
+          <span class="lead">124 </span>Pins
+          <span class="lead">1,100 </span>Followers
+        </p>
+        </div>
+        
+      </section>
+
+      <!-- -=-=-=-=-=-=-=-=-=-=CARDS-=-=-=-=-=-=-=-=-=-=--==-=-=- -->
+      <section class="card-columns">
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/400_tennis_sgniee.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/bball_280_lo12bf.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Basketball on a sunny day!</h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/soccor_350_tauwrg.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <p>Worldwide soccer</p>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/track_360_tns8du.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538810/Pinterest/bball_250_qmtbmw.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Heey! Batter Batter!</h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/bball_310_ho0j1d.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/swim_200_clmu3p.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Take a dive.</h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/track_290_bt54pm.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/275_weight_w4u3jc.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Lorem, ipsum dolor.</h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/bike_220_wtjpha.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/175_hiking_e7g8uv.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/250_baseball_ugnp38.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Out of the park!</h3>
+          </div>
+        </div>
+
+        
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/275_weight_w4u3jc.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">How much can you lift?</h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/soccor_350_tauwrg.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <p>Worldwide soccer</p>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/100_baseball_b3nbju.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+    
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/bball_310_ho0j1d.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+          </div>
+        </div>
+        
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/bike_220_wtjpha.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+            <p>See the world on two wheels.</p>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/bball_280_lo12bf.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538810/Pinterest/bball_250_qmtbmw.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/300_football_fh99so.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/track_360_tns8du.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Speedy Gonzales.</h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/400_tennis_sgniee.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+          </div>
+        </div>
+
+        
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/swim_200_clmu3p.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Take a dive.</h3>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/track_290_bt54pm.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title">Lorem,</h3>
+            
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/300_football_fh99so.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/175_hiking_e7g8uv.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            <h3 class="tile-title"></h3>
+            <p>Hikes can be relaxing.</p>
+          </div>
+        </div>
+
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/250_baseball_ugnp38.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+        
+        <div class="tiles">
+          <img
+            src="https://res.cloudinary.com/dsip2gx3i/image/upload/v1599538809/Pinterest/100_baseball_b3nbju.jpg"
+            alt="sports pic"
+            class="sports-pic"
+          />
+          <div class="tile-body">
+            
+          </div>
+        </div>
+        
+      </section>
+    </div>
+
+    <script src="js/modal.js"></script>
+  </body>
+</html>
